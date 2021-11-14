@@ -1,9 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600;700&display=swap");
+
+$sans-font: Montserrat;
+$code-font: 'Source Code Pro';
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Montserrat;
   line-height: 1.5;
 }
 nav {
@@ -11,6 +13,7 @@ nav {
   flex-direction: row;
   justify-content: space-evenly;
   height: 15vh;
+  font-family: $sans-font;
 
   #logo {
     width: 20%;
@@ -32,7 +35,7 @@ nav {
     li {
       margin-right: 20px;
       font-size: 15px;
-      font-weight: 400;
+      font-weight: 600;
       list-style-type: none;
     }
   }
@@ -46,7 +49,64 @@ main {
   justify-content: center;
 
   h1 {
+    font-family: $sans-font;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  span {
+    font-family: $code-font;
+    font-weight: 500;
+  }
+}
+#about {
+  display: flex;
+  flex-direction: row;
+
+  #image-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 50%;
+      border-radius: 1rem;
+    }
+    span {
+      font-family: $code-font;
+      font-size: .8rem;
+    }
+  }
+  #about-content {
+    width: 50%;
+    padding: 1rem;
+
+    header {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1rem;
+      a {
+        text-decoration: none;
+        color: blue;
+      }
+    }
+    .about-content-section {
+      padding: 1rem;
+    }
+    .about-titles {
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    .sans-font {
+      font-family: $sans-font;
+    }
+    .code-font {
+      font-family: $code-font;
+      font-weight: 500;
+    }
   }
 }
