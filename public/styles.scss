@@ -2,11 +2,18 @@
 
 $sans-font: Montserrat;
 $code-font: 'Source Code Pro';
+$light-pinkish-color: #F7CACD;
+$dark-pinkish-color: #DE4D86;
+$dark-bluish-color: #26547C;
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   line-height: 1.5;
+
+  a {
+    text-decoration: none;
+  }
 }
 nav {
   display: flex;
@@ -37,6 +44,10 @@ nav {
       font-size: 15px;
       font-weight: 600;
       list-style-type: none;
+
+      a {
+        color: black;
+      }
     }
   }
 }
@@ -60,6 +71,10 @@ main {
     font-family: $code-font;
     font-weight: 500;
   }
+}
+section {
+  margin: 4rem 0;
+  padding: 3rem 0;
 }
 #about {
   display: flex;
@@ -107,6 +122,43 @@ main {
     .code-font {
       font-family: $code-font;
       font-weight: 500;
+    }
+  }
+}
+footer {
+  background-color: $dark-bluish-color;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+
+  #footer-desc {
+    width: 40%;
+    color: $light-pinkish-color;
+    margin-right: 10px;
+    header {
+      font-family: $sans-font;
+      font-weight: 700;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    p {
+      font-family: $code-font;
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+  }
+
+  #footer-links {
+    width: 30%;
+    border-left: solid 1px $light-pinkish-color;
+    ul {
+      list-style: none;
+      font-family: $code-font;
+      color: $light-pinkish-color;
+      padding: 10px;
+      li {
+        padding: 0.2rem;
+      }
     }
   }
 }
