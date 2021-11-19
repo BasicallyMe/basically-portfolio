@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600;700&display=swap");
 
 $sans-font: Montserrat;
-$code-font: 'Source Code Pro';
-$light-pinkish-color: #F7CACD;
-$dark-pinkish-color: #DE4D86;
-$dark-bluish-color: #26547C;
+$code-font: "Source Code Pro";
+$light-pinkish-color: #f7cacd;
+$dark-pinkish-color: #de4d86;
+$skin-pink-color: #f29ca3;
+$dark-bluish-color: #26547c;
+
+
 body {
   margin: 0;
   padding: 0;
@@ -75,13 +78,53 @@ main {
 section {
   margin: 4rem 0;
   padding: 3rem 0;
-}
-#about {
   display: flex;
   flex-direction: row;
+}
+/* styles for various classes */
 
+.section-content {
+  width: 50%;
+  padding: 1rem;
+  justify-self: center;
+  align-self: center;
+  p {
+    font-size: 1rem;
+    font-family: $code-font;
+    font-weight: 500;
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+  }
+  ul {
+    font-size: 0.9rem;
+    font-weight: 500;
+    list-style: none;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+  }
+}
+
+.section-graphic {
+  width: 50%;
+}
+
+.sans-font {
+  font-family: $sans-font;
+}
+.code-font {
+  font-family: $code-font;
+}
+.section-sub-topics {
+  padding: 1rem;
+}
+.sub-topic-title {
+  font-weight: 600;
+}
+
+#about {
   #image-container {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,39 +135,42 @@ section {
     }
     span {
       font-family: $code-font;
-      font-size: .8rem;
-    }
-  }
-  #about-content {
-    width: 50%;
-    padding: 1rem;
-
-    header {
-      font-size: 2em;
-    }
-    p {
-      font-size: 1rem;
-      a {
-        text-decoration: none;
-        color: blue;
-      }
-    }
-    .about-content-section {
-      padding: 1rem;
-    }
-    .about-titles {
-      font-weight: 600;
-      font-size: 1.5rem;
-    }
-    .sans-font {
-      font-family: $sans-font;
-    }
-    .code-font {
-      font-family: $code-font;
-      font-weight: 500;
+      font-size: 0.8rem;
     }
   }
 }
+
+#skill-card {
+  display: grid;
+  gap: 2rem;
+  font-family: $sans-font;
+
+  /* grid properties */
+  grid-template-columns: repeat(2, 12rem);
+  grid-auto-rows: minmax(240px, 1fr);
+  justify-content: center;
+
+  .card {
+    border-radius: 10px;
+    padding: 10px;
+
+    .card-icon-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 70%;
+
+      img {
+        width: 70%;
+      }
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+}
+
 footer {
   background-color: $dark-bluish-color;
   padding: 2rem;
@@ -132,19 +178,18 @@ footer {
   flex-direction: row;
 
   #footer-desc {
-    width: 40%;
+    width: 30%;
     color: $light-pinkish-color;
     margin-right: 10px;
-    header {
-      font-family: $sans-font;
-      font-weight: 700;
-      font-size: 1.5rem;
-      text-align: center;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     p {
       font-family: $code-font;
       font-weight: 500;
       font-size: 0.9rem;
+      text-align: center;
     }
   }
 

@@ -12,12 +12,16 @@
     <div id="container">
       <!-- This is the navigation bar -->
       <nav>
-        <span id="logo"><img src="./assets/BASICALLY.png" /></span>
+        <span id="logo"
+          ><img src="./assets/BASICALLY.png" alt="logo-image"
+        /></span>
         <ul>
           <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
         </ul>
       </nav>
+
       <!-- This is the first section of the page -->
       <main>
         <h1>Hi my name is Abajit</h1>
@@ -26,12 +30,12 @@
 
       <!--This is the about section -->
       <section id="about">
-        <div id="image-container">
+        <div id="image-container" class="section-graphic">
           <img src="./assets/IMG_20210729_132132_878.jpg" alt="A photo of me" />
           <span>I found this filter on instagram</span>
         </div>
-        <div id="about-content">
-          <header class="sans-font"><h1>Basically about me 😎</h1></header>
+        <div class="section-content">
+          <header class="sans-font"><h2>Basically about me 😎</h2></header>
           <p class="code-font">
             I am a 3rd year BCA student under
             <a href="https://dibru.ac.in/"> Dibrugarh University</a>. I'm from
@@ -42,8 +46,8 @@
               >here's the wikipedia page</a
             >)
           </p>
-          <div class="about-content-section">
-            <span class="about-titles sans-font">Schools I studied in</span>
+          <div class="section-sub-topics">
+            <h3 class="sub-topic-title sans-font">Schools I studied in</h3>
             <ul class="code-font">
               <li>High School: Montfort High School, Chabua</li>
               <li>Higher Secondary: Kendriya Vidyalaya, Tinsukia,</li>
@@ -54,13 +58,80 @@
           </div>
         </div>
       </section>
+
+      <!-- This is the things I know -->
+      <section id="skill">
+        <div class="section-content">
+          <header class="sans-font">
+            <h2>Things I learned about over the years</h2>
+          </header>
+          <p>
+            Computers and Programming has always been my fancy since high
+            school, so after I passed out, I self-taught myself different
+            languages and concepts about programming.
+          </p>
+          <div class="section-sub-topics">
+            <h3 class="sub-topic-title sans-font">
+              Some other skills I learned
+            </h3>
+            <ul class="code-font">
+              <li>Googling</li>
+              <li>Graphic Design</li>
+              <li>Data Structures and Algorithms (still learning)</li>
+              <li>Creative writing</li>
+              <li>Communication</li>
+            </ul>
+          </div>
+          <p>
+            I love to learn by myself, reading articles, talking to people and
+            learning from their stories. I believe we can learn a lot , from
+            other listening and sharing with everyone around us.
+          </p>
+        </div>
+
+        <div class="section-graphic" id="skill-card">
+          <div class="card">
+            <div class="card-icon-container">
+              <img src="./assets/html.png" />
+            </div>
+            <h3>HTML</h3>
+            <div class="progress-bar">
+              <span></span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon-container">
+              <img src="./assets/css.png" />
+            </div>
+            <h3>CSS</h3>
+            <div class="progress-bar">
+              <span></span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon-container">
+              <img src="./assets/javascript.png" />
+            </div>
+            <h3>JavaScript</h3>
+            <div class="progress-bar">
+              <span></span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon-container">
+              <img src="./assets/react.png" />
+            </div>
+            <h3>ReactJS</h3>
+            <div class="progress-bar">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer>
         <div id="footer-desc">
-          <header>Thank you for visiting 😃 </header>
-          <p>This is my portfolio website hosted on Netlify.
-            I'll be adding more things to it as I progress through
-            my career. Hope you have a great life ahead 😊 
-          </p>
+          <p>Designed and Developed by Abajit 😊</p>
         </div>
         <div id="footer-links">
           <ul>
