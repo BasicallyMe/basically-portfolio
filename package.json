@@ -13,5 +13,9 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "@types/random-words": "^1.1.2",
+    "random-words": "^1.1.2"
   }
 }
