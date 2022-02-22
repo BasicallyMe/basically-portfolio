@@ -1,5 +1,15 @@
-import './styles.scss'
-import randomWordsGenerate from 'random-words'
+import "./styles.scss";
+import randomWords from "random-words";
 
-const randomQuote = document.getElementById('random-quote')
-randomQuote.innerHTML = `basically-${randomWordsGenerate({  exactly: 1, minLength: 5 }).toString()}`;  
+window.onload = (e) => {
+    generateRandomWord()
+}
+
+const randomWord = document.getElementById("random-word");
+
+randomWord.addEventListener('click', () => {
+    generateRandomWord()
+})
+const generateRandomWord = () => {
+  randomWord.innerHTML = `basically-${randomWords()}`;
+};

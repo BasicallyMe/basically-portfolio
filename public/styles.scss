@@ -14,5 +14,32 @@ main {
   header {
     color: white;
     font-weight: 400;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+    align-items: center;
+
+
+    #random-word-div {
+      width: 30%;      
+      p {
+        padding-left: 30px;
+        cursor: pointer;
+      }
+    }
+    nav {
+      width: 70%;
+      ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        li {
+          padding: 0 30px;
+        }
+      }
+    }
   }
 }
