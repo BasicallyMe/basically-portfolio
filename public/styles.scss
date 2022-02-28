@@ -42,4 +42,24 @@ main {
       }
     }
   }
+  #intro {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+
+    h1 {
+      font-size: 5rem;
+      text-transform: capitalize;
+      margin-bottom: 0%;
+    }
+    p {
+      width: 30%;
+      .red {
+        color: #ff5b5b;
+      }
+    }
+  }
 }
