@@ -156,6 +156,7 @@ a {
 .profile__image-wrapper img {
   width: 250px;
   height: 250px;
+  object-fit: cover;
   border-radius: 9999px;
 }
 
