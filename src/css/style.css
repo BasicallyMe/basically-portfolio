@@ -198,11 +198,7 @@ h2 {
   -webkit-text-fill-color: transparent;
   background: #fdc830;
   background: -webkit-linear-gradient(to right, #f37335, #fdc830);
-  background: linear-gradient(
-    to right,
-    #f37335,
-    #fdc830
-  );
+  background: linear-gradient(to right, #f37335, #fdc830);
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -210,6 +206,7 @@ h2 {
 .profile__text {
   margin-bottom: 0.5rem;
   color: var(--slate-600);
+  max-width: 40rem;
 }
 
 .profile__text--lead {
@@ -228,8 +225,9 @@ h2 {
 }
 
 .profile__link {
-  font-weight: bold;
-  text-decoration: underline;
+  font-weight: 500;
+  color: var(--amber-600);
+  text-decoration: none;
 }
 
 /* Technologies Styles */
@@ -484,6 +482,15 @@ h2 {
 
 .form__button:hover {
   background-color: var(--amber-600);
+}
+
+/* addition styling */
+
+.disable-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @media (min-width: 640px) {
