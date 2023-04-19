@@ -31,6 +31,10 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
@@ -92,7 +96,6 @@ h2 {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  /* margin-bottom: 4rem; */
   padding: 1rem 1.5rem;
 }
 
@@ -122,13 +125,13 @@ h2 {
   display: flex;
   gap: 2rem;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--black-500);
 }
 
 .header__link {
   position: relative;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .header__link::after {
@@ -228,6 +231,40 @@ h2 {
   font-weight: 500;
   color: var(--amber-600);
   text-decoration: none;
+}
+
+/* About Styles */
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__card {
+  width: 50%;
+}
+
+.about__image-wrapper {
+  width: 50%;
+}
+
+.about__image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about__image-wrapper picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+}
+
+.about__image-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* Technologies Styles */
@@ -499,6 +536,10 @@ h2 {
   }
 
   .profile {
+    flex-direction: row;
+  }
+
+  .about {
     flex-direction: row;
   }
 
