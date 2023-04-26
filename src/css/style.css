@@ -152,18 +152,60 @@ h2 {
   transform: scaleX(1);
 }
 
-.footer {
-  flex-shrink: 0;
-  width: 100%;
-  padding: 0.5rem 0;
-  text-align: center;
-}
-
 .heading--main {
   padding: 1rem 0;
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--amber-600);
+}
+
+/* Footer styles */
+
+.footer {
+  padding: 2rem 1rem;
+  flex-shrink: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__title {
+  margin-bottom: 2rem;
+  color: var(--slate-600);
+}
+
+.footer__text {
+  margin-bottom: 1rem;
+  max-width: 40rem;
+  color: var(--slate-600);
+}
+
+.footer__links {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.footer__link {
+  font-weight: 600;
+}
+
+.footer__credit {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #fdc830;
+  transition: color 0.3s ease-in;
+}
+
+.footer__credit:hover {
+  color: #f37335;
+}
+
+.notification {
+  font-size: 0.8rem;
+  margin-top: 1rem;
 }
 
 /* Profile Styles */
