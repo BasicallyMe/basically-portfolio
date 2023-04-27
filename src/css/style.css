@@ -125,7 +125,9 @@ h2 {
 .header__links {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  column-gap: 2rem;
+  row-gap: 1rem;
+  flex-wrap: wrap;
   font-size: 1rem;
   font-weight: 500;
   color: var(--black-500);
@@ -234,6 +236,7 @@ h2 {
 .profile__card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 4rem 0 3rem;
   flex: 1;
 }
