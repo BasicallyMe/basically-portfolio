@@ -1,14 +1,16 @@
 ---
-title: "Sourdough Sensei"
-summary: "Like a lot of people, I got really into sourdough in 2020. I made this app to help me bake delicious bread by putting all my recipes and schedules in one place."
-image: /images/sourdough-sensei.jpg
-imageAlt: "Screenshots of sourdough bread app"
+title: "Take a quiz"
+summary: "Short quick questions on various topics like science, geography, technology. I made this app to learn about ExpressJS, and using publicly available APIs"
+image: /images/catch-up.jpg
+imageAlt: "Screenshots of catch up app"
 tech:
   - "React.js"
-  - "Firebase"
-  - "Tailwind CSS"
-siteUrl: "#"
-repoUrl: "#"
+  - "Sass"
+  - "ExpressJS"
+  - GSAP
+siteUrl: "https://takeaquiz.pages.dev/"
+repoUrl: "https://github.com/BasicallyMe/takeaquiz.git"
+status: ""
 ---
 
 ### Problem Solved

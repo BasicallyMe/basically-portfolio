@@ -1,19 +1,19 @@
 ---
-title: "Catch Up"
-summary: "Sometimes it's hard to keep in touch with friends and family. I made this app to remind me to schedule a call if we haven't talked in a while."
-image: /images/catch-up.jpg
-imageAlt: "Screenshots of catch up app"
+title: "Notify Me"
+summary: "A web app to send automated emails with list of all scheduled classes for the day. I've built this fullstack web app as part of my final year assignment in my degree curriculum"
+image: /images/spellbook.jpg
+imageAlt: "Screenshots of DnD project"
 tech:
   - "Next.js"
   - "Firebase"
   - "Tailwind CSS"
-siteUrl: "#"
-repoUrl: "#"
+siteUrl: ""
+repoUrl: "https://github.com/BasicallyMe/notify-me.git"
 ---
 
 ### Problem Solved
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci.
+Yes, I could have just used DnD Beyond. But where's the fun in that? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci.
 
 ### Technologies Used
 
