@@ -4,9 +4,10 @@ summary: "A web app to send automated emails with list of all scheduled classes 
 image: /images/spellbook.jpg
 imageAlt: "Screenshots of DnD project"
 tech:
-  - "Next.js"
+  - "React.js"
+  - "Sass"
   - "Firebase"
-  - "Tailwind CSS"
+  - "ExpressJS"
 siteUrl: ""
 repoUrl: "https://github.com/BasicallyMe/notify-me.git"
 ---

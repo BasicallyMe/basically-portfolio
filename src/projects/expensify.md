@@ -4,7 +4,7 @@ summary: "I always struggled with tracking my expenses and budget. I made this o
 image: /images/sourdough-sensei.jpg
 imageAlt: "Screenshots of sourdough bread app"
 tech:
-  - "React.js"
+  - "Next.js"
   - "Firebase"
   - "ExpressJS"
   - "MUI"
