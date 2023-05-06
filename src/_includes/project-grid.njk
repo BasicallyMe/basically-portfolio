@@ -1,15 +1,9 @@
 <section class="projects" id="projects">
   <div class="projects__header">
     <h2 class="project__heading">Recent projects</h2>
-    <a href="/projects" class="projects__header__link">View all projects</a>
   </div>
   <div class="project-grid">
     {% asyncEach project in collections.projects %} {% include
     "project-card.njk" %} {% endeach %}
   </div>
-  <!-- <p class="project__status">
-      This section is currently being developed. Please visit my
-      <a href="https://github.com/BasicallyMe" target="_blank" class="github__link">Github</a> to checkout my
-      projects.
-  </p> -->
 </section>
