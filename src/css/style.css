@@ -213,6 +213,15 @@ h2 {
   color: var(--amber-100);
 }
 
+.footer__link-icon {
+  fill: var(--amber-600);
+  transition: transform 1s;
+}
+
+.footer__link-icon:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
 .footer__credit {
   font-weight: 500;
   font-size: 0.9rem;
