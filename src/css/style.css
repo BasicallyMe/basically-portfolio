@@ -683,6 +683,42 @@ mark {
   background-color: var(--amber-600);
 }
 
+/* 404 Error Page */
+
+.error__page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1.5rem;
+}
+
+.error__page__title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.error__page__text {
+  margin-bottom: 1rem;
+  color: var(--slate-600);
+}
+
+.error__back__button {
+  border: solid 1px var(--amber-600);
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: var(--amber-600);
+  font-size: 0.9rem;
+  transition: background-color 0.3s, color 0.4s;
+}
+
+.error__back__button:hover {
+  background-color: var(--amber-600);
+  color: white;
+}
+
 /* addition styling */
 
 .disable-select {

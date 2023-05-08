@@ -1,5 +1,5 @@
 ---
-title: Page not found
+title: 404! Page not found
 permalink: 404.html
 ---
 
@@ -9,10 +9,16 @@ permalink: 404.html
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ '/css/style.css' | url | safe }}" />
     <title>{{ title }}</title>
   </head>
-  <body>
-    <h1>{{ title }}</h1>
-    <p>Looks like this page doesn't exist. Head back to the <a href="/">home page</a></p>
+  <body class="error">
+    <section class="error__page">
+      <h1 class="error__page__title gradient-text">{{ title }}</h1>
+      <p class="error__page__text">
+        Looks like this page doesn't exist. Do you want to go back?
+      </p>
+      <a href="/" class="error__back__button">Go back</a>
+    </section>
   </body>
 </html>
