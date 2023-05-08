@@ -140,7 +140,6 @@ h2 {
 .header__link {
   position: relative;
   font-size: 0.85rem;
-  font-family: 'Roboto Mono';
 }
 
 .header__link::after {
@@ -169,7 +168,7 @@ h2 {
 /* Footer styles */
 
 .footer {
-  padding: 2rem 1rem;
+  padding: 2rem 1.5rem;
   flex-shrink: 0;
   text-align: center;
   display: flex;
@@ -215,11 +214,11 @@ h2 {
 
 .footer__link-icon {
   fill: var(--amber-600);
-  transition: transform 1s;
+  transition: transform 0.3s;
 }
 
 .footer__link-icon:hover {
-  transform: scale(1.2) rotate(360deg);
+  transform: scale(1.2);
 }
 
 .footer__credit {
