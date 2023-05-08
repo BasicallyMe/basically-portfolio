@@ -1,8 +1,6 @@
 ---
 title: "Notify Me"
 summary: "A web app to send automated emails with list of all scheduled classes for the day. I've built this fullstack web app as part of my final year assignment in my degree curriculum"
-image: /images/spellbook.jpg
-imageAlt: "Screenshots of DnD project"
 tech:
   - "React.js"
   - "Sass"

@@ -1,8 +1,6 @@
 ---
 title: "Expensify"
 summary: "I always struggled with tracking my expenses and budget. I made this one to help me keep track of my expenses and also try creating a full stack web app"
-image: /images/sourdough-sensei.jpg
-imageAlt: "Screenshots of sourdough bread app"
 tech:
   - "Next.js"
   - "Firebase"

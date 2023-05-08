@@ -1,8 +1,6 @@
 ---
 title: "Take a quiz"
 summary: "Short quick questions on various topics like science, geography, technology. I made this app to learn about ExpressJS, and using publicly available APIs"
-image: /images/catch-up.jpg
-imageAlt: "Screenshots of catch up app"
 tech:
   - "React.js"
   - "Sass"

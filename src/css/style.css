@@ -174,6 +174,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .footer__title {
@@ -215,6 +216,8 @@ h2 {
 .footer__link-icon {
   fill: var(--amber-600);
   transition: transform 0.3s;
+  height: 28px;
+  width: 28px;
 }
 
 .footer__link-icon:hover {
@@ -232,9 +235,29 @@ h2 {
   color: #f37335;
 }
 
-.notification {
-  font-size: 0.8rem;
-  margin-top: 1rem;
+.scroll-to-top__btn {
+  background-color: var(--amber-600);
+  border-radius: 9999px;
+  height: 28px;
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  transition: transform 0.4s;
+  /* z-index: 10; */
+}
+
+.scroll-to-top__btn img {
+  max-width: 60%;
+  max-height: 60%;
+  object-fit: contain;
+}
+
+.scroll-to-top__btn:hover {
+  transform: scale(1.2);
 }
 
 /* Profile Styles */
