@@ -11,6 +11,8 @@
         {% else %} {% if project.data.repoUrl !== "" %}
         <a
           class="project-card__header-link"
+          title="Github"
+          aria-label="Link to the Github repo"
           href="{{ project.data.repoUrl }}"
           target="_blank"
           ><svg
@@ -28,6 +30,8 @@
         <a
           class="project-card__header-link"
           href="{{ project.data.siteUrl }}"
+          title="Website"
+          aria-label="Link to the project website"
           target="_blank"
           ><svg
             class="project-card__header-link_icon"
