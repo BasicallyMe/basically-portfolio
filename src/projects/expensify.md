@@ -4,9 +4,8 @@ summary: "I always struggled with tracking my expenses and budget. I made this o
 tech:
   - "Next.js"
   - "Firebase"
-  - "ExpressJS"
-  - "MUI"
-  - "Sass"
+  - "Typesript"
+  - "Tailwind"
 siteUrl: ""
 repoUrl: "https://github.com/BasicallyMe/expense-tracker-app.git"
 ---
