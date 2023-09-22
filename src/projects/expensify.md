@@ -1,12 +1,12 @@
 ---
-title: "Expensify"
-summary: "I always struggled with tracking my expenses and budget. I made this one to help me keep track of my expenses and also try creating a full stack web app"
+title: "SpendWise"
+summary: "I embarked on a journey to be a full-stack developer, and built SpendWise—a solution designed to effortlessly manage expenses and double as a full-stack project."
 tech:
   - "Next.js"
   - "Firebase"
   - "Typesript"
   - "Tailwind"
-siteUrl: ""
+siteUrl: "https://spendwiseapp.vercel.app/auth/signin"
 repoUrl: "https://github.com/BasicallyMe/expense-tracker-app.git"
 ---
 
