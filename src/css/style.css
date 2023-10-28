@@ -413,22 +413,35 @@ mark {
   padding: 1rem 0 0;
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--slate-600);
+  color: var(--amber-600);
 }
 
 .technologies__list {
   width: 100%;
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 1rem;
+  row-gap: 1rem; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   list-style-position: inside;
 }
 
+.list__group:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.list__group h4 {
+  font-weight: 600;
+}
+
 .technologies__item {
+  list-style-type: none;
   font-weight: 500;
   font-size: 0.85rem;
   color: var(--slate-600);
   font-family: 'Roboto Mono';
+  padding: 0.5rem 0;
 }
 
 /* Project Styles */
