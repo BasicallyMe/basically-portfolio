@@ -388,9 +388,26 @@ mark {
   margin-bottom: 1.5rem;
 }
 
+.experience__cards {
+  display: flex;
+  gap: 1.5rem;
+}
+
 .experience__card__title {
   font-size: 1.1rem;
   font-weight: 600;
+  color: var(--slate-600);
+}
+
+.experience__card__location {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #475569;
+  margin-bottom: 1rem;
+}
+
+.experience__card__description {
+  font-size: 0.9rem;
   color: var(--slate-600);
 }
 
